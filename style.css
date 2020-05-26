@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Dice';
+  src: url('./fonts/Dice.ttf');
+}
+
+* {
+  margin: 0
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Ubuntu;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dice {
+  height: 100px;
+  font-family: "Dice";
+  font-size: 100px
+}
+
+#sort {
+  border-radius: 10px;
+  font-weight: bolder;
+  background: green;
+  outline: unset;
+  color: white;
+  border: unset;
+  padding: 15px;
+}
+
+#sort:active {
+  transform: scale(.95);
+}
